@@ -66,21 +66,18 @@ button {
   display: flex;
 }
 #ex_01_header .wrap .menu ul li {
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
   margin: 0 20px;
-}
-#ex_01header .wrap .menu ul li:last-child {
-  margin-right: 0;
-}
-
-#ex_01header .wrap .menu ul li:hover a {
-  color: #014;
 }
 
 #ex_01header .wrap .menu ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
   line-height: 90px;
   color: #1177dd;
+}
+
+#ex_01header .wrap .menu ul li a:hover {
+  color: #014;
 }
 
 #ex_02 {
@@ -179,6 +176,232 @@ button {
   line-height: 50px;
 }
 
-#ex_03 .wrap .menu ul li a:hover {
+#ex_03 .wrap .menu ul li:hover a {
   color: #555;
 }
+
+#ex_04 {
+  width: 800px;
+  height: 124px;
+  background-color: #ffcccc;
+  padding: 50px;
+}
+#ex_04 .menu {
+}
+#ex_04 .menu ul {
+  display: flex;
+}
+#ex_04 .menu ul li {
+  background-color: #ffaaff;
+  margin: 0 20px;
+}
+#ex_04 .menu ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #363636;
+}
+
+#ex_05_menu {
+  width: 100%;
+  height: auto;
+  background-color: #eeffff;
+}
+
+#ex_05_menu .wrap {
+  width: 1200px;
+  height: auto;
+  background-color: transparent;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+
+#ex_05_menu .wrap .greece_logo {
+  text-align: center;
+}
+#ex_05_menu .wrap .greece_logo a {
+}
+#ex_05_menu .wrap .greece_logo a img {
+  height: 60px;
+  margin-top: 30px;
+}
+
+#ex_05_menu .wrap .menu {
+  margin-top: 30px;
+}
+#ex_05_menu .wrap .menu ul {
+  display: flex;
+  justify-content: center;
+}
+#ex_05_menu .wrap .menu ul li {
+  margin: 0 20px;
+}
+#ex_05_menu .wrap .menu ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #1177dd;
+}
+
+#ex_05_menu .wrap .menu ul li a:hover {
+  color: #0147ad;
+}
+
+#ex_06_menu2 {
+  width: 100%;
+  height: auto;
+  background-color: #eeffff;
+  margin: 0 auto;
+}
+
+#ex_06_menu2 .wrap {
+  width: 1200px;
+  height: auto;
+  background-color: transparent;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+#ex_06_menu2 .wrap .menu2 {
+}
+#ex_06_menu2 .wrap .menu2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ex_06_menu2 .wrap .menu2 ul li {
+  margin: 0 20px;
+}
+#ex_06_menu2 .wrap .menu2 ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  color: #1177dd;
+}
+#ex_06_menu2 .wrap .menu2 ul li a:hover {
+  color: #0147ad;
+}
+#ex_06_menu2 .wrap .menu2 ul li a img {
+  height: 60px;
+  margin-top: 30px;
+}
+
+#ex_07_menu5 {
+  width: 800px;
+  height: 144px;
+  background-color: #363636;
+  margin: 0 auto;
+}
+
+#ex_07_menu5 .menu {
+  padding: 50px 50px;
+}
+#ex_07_menu5 .menu ul {
+  display: flex;
+  align-items: center;
+}
+#ex_07_menu5 .menu ul li {
+  margin: 0 20px;
+  background-color: #ffaaff;
+  padding: 10px 0;
+}
+#ex_07_menu5 .menu ul li a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+#ex_07_menu5 .menu ul li:hover {
+  background-color: #555;
+}
+#ex_07_menu5 .menu ul li a:hover {
+  color: #ff0000;
+}
+
+#ex_08_menu6 {
+  width: 800px;
+  height: 144px;
+  background-color: #363636;
+  margin: 0 auto;
+}
+
+#ex_08_menu6 .menu {
+  padding: 50px 50px;
+}
+#ex_08_menu6 .menu ul {
+  display: flex;
+  align-items: center;
+}
+#ex_08_menu6 .menu ul li {
+  margin: 0 20px;
+  background-color: #ffaaff;
+  padding: 10px 0;
+  position: relative;
+}
+#ex_08_menu6 .menu ul li a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+#ex_08_menu6 .menu ul li:hover {
+  background-color: transparent;
+}
+
+#ex_08_menu6 .menu ul li a:hover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+}
+
+#ex_09_menu7 {
+  width: 800px;
+  height: 144px;
+  background-color: #363636;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+#ex_09_menu7 .menu {
+}
+#ex_09_menu7 .menu > ul {
+  display: flex;
+}
+#ex_09_menu7 .menu > ul > li {
+  width: 120px;
+  height: max-content;
+  text-align: center;
+  margin: 0 20px;
+}
+#ex_09_menu7 .menu > ul > li > a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 0;
+  background-color: #ffaaff;
+}
+#ex_09_menu7 .menu > ul > li > ul {
+  background-color: #999;
+}
+#ex_09_menu7 .menu > ul > li > ul > li {
+  padding: 10px 0;
+}
+#ex_09_menu7 .menu > ul > li > ul > li a {
+  display: block;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+#ex_09_menu7 .menu ul > li > a:hover {
+  background-color: transparent;
+}
+#ex_09_menu7 .menu > ul > li > ul:hover > li > a {
+  background-color: transparent;
+}
+
+/* hover 효과 적용 뒷배경삭제 후 선 추가...? */
